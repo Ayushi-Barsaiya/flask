@@ -32,4 +32,4 @@ jobs:
       # Step 4: Run tests
       - name: Run tests
         run: |
-          pytest --maxfail=5 --disable-warnings
+          pytest mlops_env\test-loan-app.py --maxfail=5 --disable-warnings
